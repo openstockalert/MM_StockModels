@@ -32,7 +32,7 @@ The repository currently includes the following models:
 **Usage**
 ---------
 
-1. Clone the repository: `git clone https://github.com/your-username/your-repo-name.git`
+1. Clone the repository: `git clone https://github.com/openstockalert/MM_StockModels.git`
 2. Install required libraries: `pip install -r requirements.txt`
 3. Run the models: `python model_name.py`
 
