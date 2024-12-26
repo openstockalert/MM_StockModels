@@ -41,6 +41,9 @@ The repository currently includes the following models:
 
 The models are trained on historical stock data from [insert data source, e.g. Quandl, Yahoo Finance, etc.]. The data is stored in the `data` directory.
 
+**Mode Evaluation**
+--------------
+
 **Contributing**
 ------------
 

@@ -5,3 +5,6 @@ scikit-learn
 yfinance
 ta
 pandas_datareader
+xgboost
+matplotlib
+lightgbm
