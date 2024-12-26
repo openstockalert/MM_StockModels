@@ -208,9 +208,9 @@ Evaluate different combinations of indicators using cross-validation to determin
 
 
 
-**what does this part do: **
-   # Create target variables for next-day, 3-day, and 5-day predictions
-   # Binary target: 1 if the S&P 500 goes up, 0 if it goes down
+**what does this part do:**
+   #### Create target variables for next-day, 3-day, and 5-day predictions
+   #### Binary target: 1 if the S&P 500 goes up, 0 if it goes down
    df['S&P_1day_up'] = (df['SP500'].shift(-1) > df['SP500']).astype(int)
    df['S&P_3day_up'] = (df['SP500'].shift(-3) > df['SP500']).astype(int)
    df['S&P_5day_up'] = (df['SP500'].shift(-5) > df['SP500']).astype(int)
