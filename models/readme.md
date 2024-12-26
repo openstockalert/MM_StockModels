@@ -1,4 +1,3 @@
-
 **Mode Evaluation**
 --------------
 Accuracy is the proportion of correct predictions out of the total number of predictions. It is calculated as the ratio of correctly classified instances to the total number of instances.
