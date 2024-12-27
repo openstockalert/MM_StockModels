@@ -8,3 +8,6 @@ get json from sub-request: https://en.macromicro.me/charts/data/50108
 2, current year data:
 https://production.dataviz.cnn.io/index/fearandgreed/graphdata
 
+3, Historical data and chart of VIX and Fean & Greed Index can be find at:
+https://openstockalert.com/FearGreedChart.php
+
