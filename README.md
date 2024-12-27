@@ -1,7 +1,5 @@
 
 
-Here is a sample `README.md` file for your repository:
-
 **US Stock Market Prediction Models**
 =====================================
 
