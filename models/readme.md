@@ -91,3 +91,30 @@ ROC AUC (Receiver Operating Characteristic Area Under the Curve) is a metric use
     * Verify that the implementation details are the same.
 
     By following these steps, you should be able to get the same model even if you train it multiple times.
+
+
+**A Promising Model**
+Total Count: 132
+Sample Percentage: 5.40%
+Sum of S&P_1day_up: 91
+Percentage of S&P_1day_up: 68.94%
+Mean of SP500_Change_1day: 13.962954545454547
+Std Dev of SP500_Change_1day: 40.94326947901823
+Sum of S&P_3day_up: 83
+Percentage of S&P_3day_up: 62.88%
+Mean of SP500_Change_3day: 17.00590909090909
+Std Dev of SP500_Change_3day: 80.88996018958464
+Sum of S&P_5day_up: 87
+Percentage of S&P_5day_up: 65.91%
+Mean of SP500_Change_5day: 23.89636363636364
+Std Dev of SP500_Change_5day: 90.27485399053158
+Sum of S&P_14day_up: 99
+Percentage of S&P_14day_up: 75.00%
+Mean of SP500_Change_14day: 54.95984848484849
+Std Dev of SP500_Change_14day: 135.66220673369105
+Sum of S&P_28day_up: 104
+Percentage of S&P_28day_up: 78.79%
+Mean of SP500_Change_28day: 88.76689393939394
+Std Dev of SP500_Change_28day: 181.2487955385411
+
+![alt text](image.png)
