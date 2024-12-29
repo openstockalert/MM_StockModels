@@ -94,28 +94,28 @@ ROC AUC (Receiver Operating Characteristic Area Under the Curve) is a metric use
 
 
 **A Promising Model**
-Total Sample Count: 2443
-Model Selected Count: 132
-Sample Percentage: 5.40%
-Sum of S&P_1day_up: 91
-Percentage of S&P_1day_up: 68.94%
-Mean of SP500_Change_1day: 13.96
-Std Dev of SP500_Change_1day: 40.94
-Sum of S&P_3day_up: 83
-Percentage of S&P_3day_up: 62.88%
-Mean of SP500_Change_3day: 17.01
-Std Dev of SP500_Change_3day: 80.89
-Sum of S&P_5day_up: 87
-Percentage of S&P_5day_up: 65.91%
-Mean of SP500_Change_5day: 23.9
-Std Dev of SP500_Change_5day: 90.27
-Sum of S&P_14day_up: 99
-Percentage of S&P_14day_up: 75.00%
-Mean of SP500_Change_14day: 54.96
-Std Dev of SP500_Change_14day: 135.66
-Sum of S&P_28day_up: 104
-Percentage of S&P_28day_up: 78.79%
-Mean of SP500_Change_28day: 88.77
-Std Dev of SP500_Change_28day: 181.25
+    Total Sample Count: 2443
+    Model Selected Count: 132
+    Sample Percentage: 5.40%
+    Sum of S&P_1day_up: 91
+    Percentage of S&P_1day_up: 68.94%
+    Mean of SP500_Change_1day: 13.96
+    Std Dev of SP500_Change_1day: 40.94
+    Sum of S&P_3day_up: 83
+    Percentage of S&P_3day_up: 62.88%
+    Mean of SP500_Change_3day: 17.01
+    Std Dev of SP500_Change_3day: 80.89
+    Sum of S&P_5day_up: 87
+    Percentage of S&P_5day_up: 65.91%
+    Mean of SP500_Change_5day: 23.9
+    Std Dev of SP500_Change_5day: 90.27
+    Sum of S&P_14day_up: 99
+    Percentage of S&P_14day_up: 75.00%
+    Mean of SP500_Change_14day: 54.96
+    Std Dev of SP500_Change_14day: 135.66
+    Sum of S&P_28day_up: 104
+    Percentage of S&P_28day_up: 78.79%
+    Mean of SP500_Change_28day: 88.77
+    Std Dev of SP500_Change_28day: 181.25
 
-![alt text](image.png)
+![Model](ModelvsControl.png)
