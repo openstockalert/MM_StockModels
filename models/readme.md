@@ -160,6 +160,7 @@ ROC AUC (Receiver Operating Characteristic Area Under the Curve) is a metric use
         Std Dev of FNG: 19.88
 
 ***Comparation***
+
         Dataframe: sp500_down2
         Total Sample Count: 2443
         Model Selected Count: 451
