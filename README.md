@@ -7,6 +7,7 @@
 ------------
 
 This repository contains a collection of machine learning models designed to predict the US stock market. The models are trained on historical stock data and can be used to forecast future market trends.
+For details, visit https://openstockalert.com
 
 **Models**
 ----------
