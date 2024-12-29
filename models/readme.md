@@ -96,7 +96,7 @@ ROC AUC (Receiver Operating Characteristic Area Under the Curve) is a metric use
 **A Promising Model**
 
             Total Sample Count: 2443
-            Model Selected Count: 132
+            Model Selected Count: 132 ( Of 2443 days of trading data, 132 days are selected by the model)
             Model Selected/Total Count Percentage: 5.40%
 
             Of 132 days selected by the model, 91 times SP500 index is up on 1st trading day after the selected date
