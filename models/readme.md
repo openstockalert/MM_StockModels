@@ -95,34 +95,34 @@ ROC AUC (Receiver Operating Characteristic Area Under the Curve) is a metric use
 
 **A Promising Model**
 
-            Total Sample Count: 2443
-            Model Selected Count: 132 (Of 2443 days of trading data, started from 2015-01-12, 132 days are selected by the model)
-            Model Selected/Total Count Percentage: 5.40%
+        Total Sample Count: 2443
+        Model Selected Count: 132 (Of 2443 days of trading data, started from 2015-01-12, 132 days are selected by the model)
+        Model Selected/Total Count Percentage: 5.40%
 
-            Of 132 days selected by the model, 91 times SP500 index is up on 1st trading day after the selected date
-            Percentage of S&P_1day_up: 68.94% ( vs control 53.79%)
-            Mean of SP500_Change_1day: 13.96 ( vs control 1.6)
-            Std Dev of SP500_Change_1day: 40.94 ( vs control 37.41)
+        Of 132 days selected by the model, 91 times SP500 index is up on 1st trading day after the selected date
+        Percentage of S&P_1day_up: 68.94% ( vs control 53.79%)
+        Mean of SP500_Change_1day: 13.96 ( vs control 1.6)
+        Std Dev of SP500_Change_1day: 40.94 ( vs control 37.41)
 
 
-            Of 132 days selected by the model, 83 times SP500 index is up on 3rd trading day after the selected date
-            Percentage of S&P_3day_up: 62.88% ( vs control 58.82%)
-            Mean of SP500_Change_3day: 17.01 ( vs control 4.77)
-            Std Dev of SP500_Change_3day: 80.89 ( vs control 62.21)
+        Of 132 days selected by the model, 83 times SP500 index is up on 3rd trading day after the selected date
+        Percentage of S&P_3day_up: 62.88% ( vs control 58.82%)
+        Mean of SP500_Change_3day: 17.01 ( vs control 4.77)
+        Std Dev of SP500_Change_3day: 80.89 ( vs control 62.21)
 
-            Of 132 days selected by the model, 87 times SP500 index is up on 5th trading day after the selected date
-            Percentage of S&P_5day_up: 65.91% ( vs control 61.11%)
-            Mean of SP500_Change_5day: 23.9 ( vs control 7.97)
-            Std Dev of SP500_Change_5day: 90.27 ( vs control 79.23)
+        Of 132 days selected by the model, 87 times SP500 index is up on 5th trading day after the selected date
+        Percentage of S&P_5day_up: 65.91% ( vs control 61.11%)
+        Mean of SP500_Change_5day: 23.9 ( vs control 7.97)
+        Std Dev of SP500_Change_5day: 90.27 ( vs control 79.23)
 
-            Of 132 days selected by the model, 99 times SP500 index is up on 14th trading day after the selected date
-            Percentage of S&P_14day_up: 75.00% ( vs control 66.93%)
-            Mean of SP500_Change_14day: 54.96 ( vs control 22.65)
-            Std Dev of SP500_Change_14day: 135.66 ( vs control 129.59)
+        Of 132 days selected by the model, 99 times SP500 index is up on 14th trading day after the selected date
+        Percentage of S&P_14day_up: 75.00% ( vs control 66.93%)
+        Mean of SP500_Change_14day: 54.96 ( vs control 22.65)
+        Std Dev of SP500_Change_14day: 135.66 ( vs control 129.59)
 
-            Of 132 days selected by the model, 104 times SP500 index is up on 28th trading day after the selected date
-            Percentage of S&P_28day_up: 78.79% ( vs control 68.36%)
-            Mean of SP500_Change_28day: 88.77 ( vs control 45.26)
-            Std Dev of SP500_Change_28day: 181.25 ( vs control 178.06)
+        Of 132 days selected by the model, 104 times SP500 index is up on 28th trading day after the selected date
+        Percentage of S&P_28day_up: 78.79% ( vs control 68.36%)
+        Mean of SP500_Change_28day: 88.77 ( vs control 45.26)
+        Std Dev of SP500_Change_28day: 181.25 ( vs control 178.06)
 
 ![Model](ModelvsControl.png)
