@@ -96,68 +96,84 @@ ROC AUC (Receiver Operating Characteristic Area Under the Curve) is a metric use
 **A Promising Model**
 
 ***Control:***
-        Total Sample Count: 2443
-        Model Selected Count: 2443
+
+        Dataframe: total samples
+        Total Sample Count: 2425
+        Model Selected Count: 2425
         Sample Percentage: 100.00%
 
-        Sum of S&P_1day_up: 1314
-        Percentage of S&P_1day_up: 53.79%
+        Sum of S&P_1day_up: 1305
+        Percentage of S&P_1day_up: 53.81%
         Mean of SP500_Change_1day: 0.05
         Std Dev of SP500_Change_1day: 1.13
 
-        Sum of S&P_3day_up: 1437
-        Percentage of S&P_3day_up: 58.82%
+        Sum of S&P_3day_up: 1425
+        Percentage of S&P_3day_up: 58.76%
         Mean of SP500_Change_3day: 0.15
-        Std Dev of SP500_Change_3day: 1.82
+        Std Dev of SP500_Change_3day: 1.83
 
-        Sum of S&P_5day_up: 1493
-        Percentage of S&P_5day_up: 61.11%
-        Mean of SP500_Change_5day: 0.25
-        Std Dev of SP500_Change_5day: 2.3
+        Sum of S&P_5day_up: 1480
+        Percentage of S&P_5day_up: 61.03%
+        Mean of SP500_Change_5day: 0.24
+        Std Dev of SP500_Change_5day: 2.31
 
-        Sum of S&P_14day_up: 1635
-        Percentage of S&P_14day_up: 66.93%
-        Mean of SP500_Change_14day: 0.69
-        Std Dev of SP500_Change_14day: 3.74
+        Sum of S&P_14day_up: 1618
+        Percentage of S&P_14day_up: 66.72%
+        Mean of SP500_Change_14day: 0.68
+        Std Dev of SP500_Change_14day: 3.75
 
-        Sum of S&P_28day_up: 1670
-        Percentage of S&P_28day_up: 68.36%
-        Mean of SP500_Change_28day: 1.37
-        Std Dev of SP500_Change_28day: 5.11
+        Sum of S&P_22day_up: 1644
+        Percentage of S&P_22day_up: 67.79%
+        Mean of SP500_Change_22day: 1.07
+        Std Dev of SP500_Change_22day: 4.63
+
+        Sum of S&P_28day_up: 1652
+        Percentage of S&P_28day_up: 68.12%
+        Mean of SP500_Change_28day: 1.36
+        Std Dev of SP500_Change_28day: 5.13
+
+        Mean of FNG: 49.54
+        Std Dev of FNG: 20.32
 
 ***Model:***
-        sp_change: -0.12%, fn_change: 0.5
-        Total Sample Count: 2443
-        Model Selected Count: 162
-        Sample Percentage: 6.63%
+
+        Dataframe: sp_change: -0.12, fn_change: 0.5
+        Total Sample Count: 2425
+        Model Selected Count: 160
+        Sample Percentage: 6.60%
 
         Sum of S&P_1day_up: 108
-        Percentage of S&P_1day_up: 66.67%
-        Mean of SP500_Change_1day: 0.42
+        Percentage of S&P_1day_up: 67.50%
+        Mean of SP500_Change_1day: 0.43
         Std Dev of SP500_Change_1day: 1.16
 
-        Sum of S&P_3day_up: 101
-        Percentage of S&P_3day_up: 62.35%
-        Mean of SP500_Change_3day: 0.54
-        Std Dev of SP500_Change_3day: 2.28
+        Sum of S&P_3day_up: 100
+        Percentage of S&P_3day_up: 62.50%
+        Mean of SP500_Change_3day: 0.55
+        Std Dev of SP500_Change_3day: 2.29
 
-        Sum of S&P_5day_up: 106
-        Percentage of S&P_5day_up: 65.43%
-        Mean of SP500_Change_5day: 0.76
-        Std Dev of SP500_Change_5day: 2.53
+        Sum of S&P_5day_up: 105
+        Percentage of S&P_5day_up: 65.62%
+        Mean of SP500_Change_5day: 0.75
+        Std Dev of SP500_Change_5day: 2.54
 
-        Sum of S&P_14day_up: 117
-        Percentage of S&P_14day_up: 72.22%
-        Mean of SP500_Change_14day: 1.5
-        Std Dev of SP500_Change_14day: 4.09
+        Sum of S&P_14day_up: 116
+        Percentage of S&P_14day_up: 72.50%
+        Mean of SP500_Change_14day: 1.51
+        Std Dev of SP500_Change_14day: 4.11
 
-        Sum of S&P_28day_up: 126
-        Percentage of S&P_28day_up: 77.78%
-        Mean of SP500_Change_28day: 2.47
-        Std Dev of SP500_Change_28day: 5.34
+        Sum of S&P_22day_up: 118
+        Percentage of S&P_22day_up: 73.75%
+        Mean of SP500_Change_22day: 2.14
+        Std Dev of SP500_Change_22day: 4.85
 
-        Mean of FNG: 45.83
-        Std Dev of FNG: 19.88
+        Sum of S&P_28day_up: 124
+        Percentage of S&P_28day_up: 77.50%
+        Mean of SP500_Change_28day: 2.44
+        Std Dev of SP500_Change_28day: 5.36
+
+        Mean of FNG: 46.03
+        Std Dev of FNG: 19.92
 
 ***Comparation***
 
@@ -246,6 +262,8 @@ ROC AUC (Receiver Operating Characteristic Area Under the Curve) is a metric use
         ---------------------------
 
   
-
+Fig. 1  Compare the model with the control (total samples)
 ![Model](ModelvsControl.png)
+
+Fig. 2 Compare the model with other models ( sp500 down more than 2, 3, 4, 5 days)
 ![Model](CompareWithDown234.png)
