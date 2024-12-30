@@ -1,7 +1,7 @@
 import pandas_datareader.data as web
 import datetime
 
-start = datetime.datetime(2021, 5, 17)
+start = datetime.datetime(2011, 1, 3)
 
 sp500 = web.DataReader("SP500", "fred", start)
 nasdaq = web.DataReader("NASDAQCOM", "fred", start)
