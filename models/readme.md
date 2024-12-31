@@ -94,6 +94,7 @@ ROC AUC (Receiver Operating Characteristic Area Under the Curve) is a metric use
 
 
 **A Promising Model**
+        find out more details at: https://openstockalert.com/model.php
 
 ***Control:***
 
